@@ -12,3 +12,17 @@ D:\workarea\kpmg-smart-traveller\reference-project\ng-core-business-project\ng-c
 D:\workarea\kpmg-smart-traveller\reference-project\ng-core-business-project\ng-core-business-project\ng-core-api\obj\Debug\netcoreapp2.2\ng-core-api.RazorTargetAssemblyInfo.cache
 D:\workarea\kpmg-smart-traveller\reference-project\ng-core-business-project\ng-core-business-project\ng-core-api\obj\Debug\netcoreapp2.2\ng-core-api.dll
 D:\workarea\kpmg-smart-traveller\reference-project\ng-core-business-project\ng-core-business-project\ng-core-api\obj\Debug\netcoreapp2.2\ng-core-api.pdb
+E:\github-projects\ng-aspnetcore-business-app\ng-core-business-project\ng-core-api\bin\Debug\netcoreapp2.2\ng-core-api.deps.json
+E:\github-projects\ng-aspnetcore-business-app\ng-core-business-project\ng-core-api\bin\Debug\netcoreapp2.2\ng-core-api.runtimeconfig.json
+E:\github-projects\ng-aspnetcore-business-app\ng-core-business-project\ng-core-api\bin\Debug\netcoreapp2.2\ng-core-api.runtimeconfig.dev.json
+E:\github-projects\ng-aspnetcore-business-app\ng-core-business-project\ng-core-api\bin\Debug\netcoreapp2.2\ng-core-api.dll
+E:\github-projects\ng-aspnetcore-business-app\ng-core-business-project\ng-core-api\bin\Debug\netcoreapp2.2\ng-core-api.pdb
+E:\github-projects\ng-aspnetcore-business-app\ng-core-business-project\ng-core-api\obj\Debug\netcoreapp2.2\ng-core-api.csprojAssemblyReference.cache
+E:\github-projects\ng-aspnetcore-business-app\ng-core-business-project\ng-core-api\obj\Debug\netcoreapp2.2\ng-core-api.csproj.CoreCompileInputs.cache
+E:\github-projects\ng-aspnetcore-business-app\ng-core-business-project\ng-core-api\obj\Debug\netcoreapp2.2\ng-core-api.RazorAssemblyInfo.cache
+E:\github-projects\ng-aspnetcore-business-app\ng-core-business-project\ng-core-api\obj\Debug\netcoreapp2.2\ng-core-api.RazorAssemblyInfo.cs
+E:\github-projects\ng-aspnetcore-business-app\ng-core-business-project\ng-core-api\obj\Debug\netcoreapp2.2\ng-core-api.AssemblyInfoInputs.cache
+E:\github-projects\ng-aspnetcore-business-app\ng-core-business-project\ng-core-api\obj\Debug\netcoreapp2.2\ng-core-api.AssemblyInfo.cs
+E:\github-projects\ng-aspnetcore-business-app\ng-core-business-project\ng-core-api\obj\Debug\netcoreapp2.2\ng-core-api.RazorTargetAssemblyInfo.cache
+E:\github-projects\ng-aspnetcore-business-app\ng-core-business-project\ng-core-api\obj\Debug\netcoreapp2.2\ng-core-api.dll
+E:\github-projects\ng-aspnetcore-business-app\ng-core-business-project\ng-core-api\obj\Debug\netcoreapp2.2\ng-core-api.pdb

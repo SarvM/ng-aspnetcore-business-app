@@ -1,0 +1,1 @@
+select BandId, Name, CreatedBy, CreatedOn, UpdatedBy, UpdatedOn from Bands

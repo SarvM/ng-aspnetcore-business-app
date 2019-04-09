@@ -12096,11 +12096,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\workarea\\kpmg-smart-traveller\\reference-project\\ng-core-business-project\\ng-core-business-project\\ng-core-web\\ng-core-web.csproj",
+      "projectUniqueName": "e:\\github-projects\\ng-aspnetcore-business-app\\ng-core-business-project\\ng-core-web\\ng-core-web.csproj",
       "projectName": "ng-core-web",
-      "projectPath": "D:\\workarea\\kpmg-smart-traveller\\reference-project\\ng-core-business-project\\ng-core-business-project\\ng-core-web\\ng-core-web.csproj",
+      "projectPath": "e:\\github-projects\\ng-aspnetcore-business-app\\ng-core-business-project\\ng-core-web\\ng-core-web.csproj",
       "packagesPath": "C:\\Users\\Saravanan\\.nuget\\packages\\",
-      "outputPath": "D:\\workarea\\kpmg-smart-traveller\\reference-project\\ng-core-business-project\\ng-core-business-project\\ng-core-web\\obj\\",
+      "outputPath": "e:\\github-projects\\ng-aspnetcore-business-app\\ng-core-business-project\\ng-core-web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

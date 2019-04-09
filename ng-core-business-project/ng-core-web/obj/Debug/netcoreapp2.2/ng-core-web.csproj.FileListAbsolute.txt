@@ -1,0 +1,14 @@
+E:\github-projects\ng-aspnetcore-business-app\ng-core-business-project\ng-core-web\bin\Debug\netcoreapp2.2\ng-core-web.deps.json
+E:\github-projects\ng-aspnetcore-business-app\ng-core-business-project\ng-core-web\bin\Debug\netcoreapp2.2\ng-core-web.runtimeconfig.json
+E:\github-projects\ng-aspnetcore-business-app\ng-core-business-project\ng-core-web\bin\Debug\netcoreapp2.2\ng-core-web.runtimeconfig.dev.json
+E:\github-projects\ng-aspnetcore-business-app\ng-core-business-project\ng-core-web\bin\Debug\netcoreapp2.2\ng-core-web.dll
+E:\github-projects\ng-aspnetcore-business-app\ng-core-business-project\ng-core-web\bin\Debug\netcoreapp2.2\ng-core-web.pdb
+E:\github-projects\ng-aspnetcore-business-app\ng-core-business-project\ng-core-web\obj\Debug\netcoreapp2.2\ng-core-web.csproj.CoreCompileInputs.cache
+E:\github-projects\ng-aspnetcore-business-app\ng-core-business-project\ng-core-web\obj\Debug\netcoreapp2.2\ng-core-web.RazorAssemblyInfo.cache
+E:\github-projects\ng-aspnetcore-business-app\ng-core-business-project\ng-core-web\obj\Debug\netcoreapp2.2\ng-core-web.RazorAssemblyInfo.cs
+E:\github-projects\ng-aspnetcore-business-app\ng-core-business-project\ng-core-web\obj\Debug\netcoreapp2.2\ng-core-web.AssemblyInfoInputs.cache
+E:\github-projects\ng-aspnetcore-business-app\ng-core-business-project\ng-core-web\obj\Debug\netcoreapp2.2\ng-core-web.AssemblyInfo.cs
+E:\github-projects\ng-aspnetcore-business-app\ng-core-business-project\ng-core-web\obj\Debug\netcoreapp2.2\ng-core-web.RazorTargetAssemblyInfo.cache
+E:\github-projects\ng-aspnetcore-business-app\ng-core-business-project\ng-core-web\obj\Debug\netcoreapp2.2\ng-core-web.dll
+E:\github-projects\ng-aspnetcore-business-app\ng-core-business-project\ng-core-web\obj\Debug\netcoreapp2.2\ng-core-web.pdb
+E:\github-projects\ng-aspnetcore-business-app\ng-core-business-project\ng-core-web\obj\Debug\netcoreapp2.2\ng-core-web.csprojAssemblyReference.cache
