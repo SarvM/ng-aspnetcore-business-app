@@ -1,0 +1,14 @@
+D:\workarea\kpmg-smart-traveller\reference-project\ng-core-business-project\ng-core-business-project\ng-core-api\bin\Debug\netcoreapp2.2\ng-core-api.deps.json
+D:\workarea\kpmg-smart-traveller\reference-project\ng-core-business-project\ng-core-business-project\ng-core-api\bin\Debug\netcoreapp2.2\ng-core-api.runtimeconfig.json
+D:\workarea\kpmg-smart-traveller\reference-project\ng-core-business-project\ng-core-business-project\ng-core-api\bin\Debug\netcoreapp2.2\ng-core-api.runtimeconfig.dev.json
+D:\workarea\kpmg-smart-traveller\reference-project\ng-core-business-project\ng-core-business-project\ng-core-api\bin\Debug\netcoreapp2.2\ng-core-api.dll
+D:\workarea\kpmg-smart-traveller\reference-project\ng-core-business-project\ng-core-business-project\ng-core-api\bin\Debug\netcoreapp2.2\ng-core-api.pdb
+D:\workarea\kpmg-smart-traveller\reference-project\ng-core-business-project\ng-core-business-project\ng-core-api\obj\Debug\netcoreapp2.2\ng-core-api.csprojAssemblyReference.cache
+D:\workarea\kpmg-smart-traveller\reference-project\ng-core-business-project\ng-core-business-project\ng-core-api\obj\Debug\netcoreapp2.2\ng-core-api.csproj.CoreCompileInputs.cache
+D:\workarea\kpmg-smart-traveller\reference-project\ng-core-business-project\ng-core-business-project\ng-core-api\obj\Debug\netcoreapp2.2\ng-core-api.RazorAssemblyInfo.cache
+D:\workarea\kpmg-smart-traveller\reference-project\ng-core-business-project\ng-core-business-project\ng-core-api\obj\Debug\netcoreapp2.2\ng-core-api.RazorAssemblyInfo.cs
+D:\workarea\kpmg-smart-traveller\reference-project\ng-core-business-project\ng-core-business-project\ng-core-api\obj\Debug\netcoreapp2.2\ng-core-api.AssemblyInfoInputs.cache
+D:\workarea\kpmg-smart-traveller\reference-project\ng-core-business-project\ng-core-business-project\ng-core-api\obj\Debug\netcoreapp2.2\ng-core-api.AssemblyInfo.cs
+D:\workarea\kpmg-smart-traveller\reference-project\ng-core-business-project\ng-core-business-project\ng-core-api\obj\Debug\netcoreapp2.2\ng-core-api.RazorTargetAssemblyInfo.cache
+D:\workarea\kpmg-smart-traveller\reference-project\ng-core-business-project\ng-core-business-project\ng-core-api\obj\Debug\netcoreapp2.2\ng-core-api.dll
+D:\workarea\kpmg-smart-traveller\reference-project\ng-core-business-project\ng-core-business-project\ng-core-api\obj\Debug\netcoreapp2.2\ng-core-api.pdb
