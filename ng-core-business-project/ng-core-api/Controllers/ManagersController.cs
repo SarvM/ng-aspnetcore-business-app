@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+
 using ng_core_api.Services;
 using AutoMapper;
 using ng_core_api.Dtos;
@@ -11,36 +12,34 @@ using System.Diagnostics;
 
 namespace ng_core_api.Controllers
 {
-    [Route("api/bands")]
+    [Route("api/managers")]
     [ApiController]
-    public class BandsController : ControllerBase
+    public class ManagersController : ControllerBase
     {
+
         private readonly ITourManagementRepository _tourManagementRepository;
 
-        public BandsController(ITourManagementRepository tourManagementRepository)
+        public ManagersController(ITourManagementRepository tourManagementRepository)
         {
             _tourManagementRepository = tourManagementRepository;
         }
-        // GET: api/Bands
+
         [HttpGet]
         public async Task<IActionResult> Get()
         {
-
-            try{
-                var bandsFromRepo = await _tourManagementRepository.GetBands();
-                var bands = Mapper.Map<IEnumerable<Band>>(bandsFromRepo);
-                return Ok(bands);
+            try
+            {
+                var managersFromRepo = await _tourManagementRepository.GetManagers();
+                var managers = Mapper.Map<IEnumerable<Manager>>(managersFromRepo);
+                return Ok(managers);
             }
             catch(Exception ex)
             {
                 Debug.WriteLine(ex.Message);
-
             }
 
-            // Should be a failure response;
             return Ok();
         }
 
-        
     }
 }

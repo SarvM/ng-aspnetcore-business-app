@@ -1,1 +1,1 @@
-select BandId, Name, CreatedBy, CreatedOn, UpdatedBy, UpdatedOn from Bands
+select ManagerId, [Name], CreatedOn, CreatedBy, UpdatedOn, UpdatedBy from Managers

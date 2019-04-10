@@ -7,6 +7,7 @@ using Dapper;
 using Microsoft.Extensions.Configuration;
 using ng_core_api.Entities;
 
+
 namespace ng_core_api.Services
 {
     public class TourManagementRepository : ITourManagementRepository
@@ -15,7 +16,8 @@ namespace ng_core_api.Services
         public TourManagementRepository(IConfiguration configuration){
             _connectionString = configuration.GetConnectionString("ManagementDB");
         }
-        public async Task<IEnumerable<Band>> GetBands(){
+        public async Task<IEnumerable<Band>> GetBands()
+        {
             IEnumerable<Band> bands = null;
 
             try{
@@ -34,6 +36,28 @@ namespace ng_core_api.Services
             }
 
             return bands;
+        }
+
+        public async Task<IEnumerable<Manager>> GetManagers()
+        {
+            IEnumerable<Manager> managers = null;
+
+            try
+            {
+                using(var connection = new SqlConnection(_connectionString))
+                {
+                    await connection.OpenAsync();
+
+                    var query = @"select ManagerId, [Name], CreatedOn, CreatedBy, UpdatedOn, UpdatedBy from Managers with(nolock)";
+                    managers = await connection.QueryAsync<Manager>(query);
+                }
+            }
+            catch(Exception)
+            {
+                
+            }
+
+            return managers;
         }
     }
 }

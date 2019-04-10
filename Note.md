@@ -40,7 +40,8 @@
 1. Keep the repository file in Services folder
 2. Keep the Identifier with Entity Name, it will avoid confusion like 'BandID' instead of 'Id'
 3. await connection.OpenAsync(); // Do this because of good pratice.
-
+4. ControllerBase // for controller class means, it won't classes supporting views.
+5. private readonly // readonly -- the value is assigned during Initialization [ possible to assign to different value ] but for constant value assigned during compile time.
 
 ### Add dapper package to the solution
 
