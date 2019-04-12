@@ -9,5 +9,6 @@ namespace ng_core_api.Services
         Task<IEnumerable<Manager>> GetManagers();
         Task<IEnumerable<Tour>> GetTours();
         Task<Tour> GetTour(string tourId);
+        Task<IEnumerable<Show>> GetShows(string tourId);
     }
 }

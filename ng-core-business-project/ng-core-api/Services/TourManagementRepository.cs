@@ -132,5 +132,33 @@ namespace ng_core_api.Services
 
             return tour;
         }
+
+        public async Task<IEnumerable<Show>> GetShows(string tourId)
+        {
+            IEnumerable<Show> shows = null;
+
+            try
+            {
+                using(var connection = new SqlConnection(_connectionString))
+                {
+                    await connection.OpenAsync();
+
+                    var query = @"SELECT 
+                                    ShowId, [Date], Venue, City, Country, CreatedBy, CreatedOn, UpdatedBy, UpdatedOn
+                                FROM 
+                                    Shows
+                                WHERE
+                                    TourId = @tourId";
+
+                    shows = await connection.QueryAsync<Show>(query, new { @tourId = tourId});
+                }
+            }
+            catch(Exception ex)
+            {
+                throw ex;
+            }
+
+            return shows;
+        }
     }
 }

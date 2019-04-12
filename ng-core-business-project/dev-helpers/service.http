@@ -1,4 +1,7 @@
-GET http://localhost:5000/api/tours/f67ba678-b6e0-4307-afd9-e804c23b3cd3
+
+GET http://localhost:5000/api/tours/f67ba678-b6e0-4307-afd9-e804c23b3cd3/shows
+
+//GET http://localhost:5000/api/tours/f67ba678-b6e0-4307-afd9-e804c23b3cd3
 
 //GET http://localhost:5000/api/tours
 

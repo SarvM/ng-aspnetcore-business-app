@@ -56,6 +56,7 @@ namespace ng_core_api
                 config.CreateMap<Entities.Tour, Dtos.Tour>()
                     .ForMember(d => d.Band, o => o.MapFrom(s => s.Band.Name))
                     .ForMember(d => d.Manager, o => o.MapFrom(s => s.Manager.Name));
+                config.CreateMap<Entities.Show, Dtos.Show>();
             });
 
             app.UseHttpsRedirection();
