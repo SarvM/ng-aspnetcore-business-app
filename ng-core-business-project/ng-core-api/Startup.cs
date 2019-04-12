@@ -52,6 +52,10 @@ namespace ng_core_api
             AutoMapper.Mapper.Initialize(config =>
             {
                 config.CreateMap<Entities.Band, Dtos.Band>();
+                config.CreateMap<Entities.Manager, Dtos.Manager>();
+                config.CreateMap<Entities.Tour, Dtos.Tour>()
+                    .ForMember(d => d.Band, o => o.MapFrom(s => s.Band.Name))
+                    .ForMember(d => d.Manager, o => o.MapFrom(s => s.Manager.Name));
             });
 
             app.UseHttpsRedirection();

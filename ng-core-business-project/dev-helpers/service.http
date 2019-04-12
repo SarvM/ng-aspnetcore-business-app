@@ -1,3 +1,9 @@
-GET http://localhost:5000/api/managers
+GET http://localhost:5000/api/tours/f67ba678-b6e0-4307-afd9-e804c23b3cd3
+
+//GET http://localhost:5000/api/tours
 
 //GET http://localhost:5000/api/managers
+
+
+//tourId = f67ba678-b6e0-4307-afd9-e804c23b3cd3
+//tourId = c7ba6add-09c4-45f8-8dd0-eaca221e5d93

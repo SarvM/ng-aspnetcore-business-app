@@ -59,5 +59,78 @@ namespace ng_core_api.Services
 
             return managers;
         }
+
+        public async Task<IEnumerable<Tour>> GetTours()
+        {
+            IEnumerable<Tour> tours = null;
+
+            try
+            {
+                using(var connection = new SqlConnection(_connectionString))
+                {
+                    await connection.OpenAsync();
+
+                    var query = @"SELECT 
+                                    T.TourId, T.BandId, T.Title, T.[Description], T.StartDate, T.EndDate, T.EstimatedProfits,
+                                    T.ManagerId, T.CreatedOn, T.CreatedBy, T.UpdatedOn, T.UpdatedBy,
+                                    M.ManagerId, M.Name, B.BandId, B.Name 
+                                FROM 
+                                    Tours T 
+                                    INNER JOIN Managers M ON M.ManagerId = T.ManagerId
+                                    INNER JOIN Bands B ON B.BandId = T.BandId";
+
+                    tours = await connection.QueryAsync<Tour, Manager, Band, Tour>(query, 
+                                            (tour, manager, band) => {
+                                                tour.Manager = manager;
+                                                tour.Band = band;
+                                                return tour;
+                                            }, splitOn: "ManagerId, BandId");
+                }
+            }
+            catch(Exception ex)
+            {
+                throw ex;
+            }
+
+            return tours;
+        }
+
+        public async Task<Tour> GetTour(string tourId)
+        {
+            Tour tour = null;
+            
+            try
+            {
+                using(var connection = new SqlConnection(_connectionString))
+                {
+                    await connection.OpenAsync();
+
+                    var query = @"SELECT 
+                        T.TourId, T.BandId, T.Title, T.[Description], T.StartDate, T.EndDate, T.EstimatedProfits,
+                        T.ManagerId, T.CreatedOn, T.CreatedBy, T.UpdatedOn, T.UpdatedBy,
+                        M.ManagerId, M.Name, B.BandId, B.Name 
+                    FROM 
+                        Tours T 
+                        INNER JOIN Managers M ON M.ManagerId = T.ManagerId
+                        INNER JOIN Bands B ON B.BandId = T.BandId WHERE T.TourId = @tourId";
+
+                    var result = await connection.QueryAsync<Tour, Manager, Band, Tour>(query, 
+                        (t, m, b) => {
+                            t.Manager = m;
+                            t.Band = b;
+                            return t;
+                        }, new { @tourId = tourId }, splitOn: "ManagerId, BandId");
+
+                    tour = result.AsList().ToArray()[0];
+                    
+                }
+            }
+            catch(Exception ex)
+            {
+                throw ex;
+            }
+
+            return tour;
+        }
     }
 }

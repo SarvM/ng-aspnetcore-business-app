@@ -38,7 +38,7 @@ namespace ng_core_api.Controllers
             }
 
             // Should be a failure response;
-            return Ok();
+            return BadRequest();
         }
 
         
