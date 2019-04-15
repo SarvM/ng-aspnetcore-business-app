@@ -57,6 +57,18 @@
 
 ### Add debugger to debug the application 
 
-Add the launch.json and tasks.json file in the .vscode folder of Visual studio code for debugging. 
+Add the launch.json and tasks.json file in the .vscode folder of Visual studio code for debugging.
 
+
+## Angular Project
+
+Note: 
+
+1. Create a folder 'ClientApp' to reside the source of angular project. Use angular CLI to create that folder with default files.
+2. Install automapper-ts using npm.
+3. Install bootstrap for styling purpose.
+4. Include the bootstrap in style.css -- global file location.  
+5. Install @angular/http
+6. npm install --save rxjs-compat
+7. Add CORS exception in Startup file.
 

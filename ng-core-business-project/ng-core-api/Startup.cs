@@ -32,6 +32,14 @@ namespace ng_core_api
         {
             
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+			
+			// Configure CORS so the API allows requests from JavaScript.  
+            // For demo purposes, all origins/headers/methods are allowed.  
+            services.AddCors(options =>
+            {
+                options.AddPolicy("AllowAllOriginsHeadersAndMethods",
+                    builder => builder.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod());
+            });
 
             services.AddScoped<ITourManagementRepository, TourManagementRepository>();
         }
@@ -59,7 +67,9 @@ namespace ng_core_api
                 config.CreateMap<Entities.Show, Dtos.Show>();
             });
 
-            app.UseHttpsRedirection();
+            //app.UseHttpsRedirection();
+			// Enable CORS
+            app.UseCors("AllowAllOriginsHeadersAndMethods");
             app.UseMvc();
         }
     }
